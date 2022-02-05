@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import baobab from '../../assets/images/home/baobab.jpg';
+import baobab from '../../assets/images/baobab.jpg';
 import indri from '../../assets/images/indri.jpg';
 import pearls from '../../assets/images/beach.jpg';
 import wonders from '../../assets/images/isalo1.png';

@@ -1,10 +1,10 @@
 import React from 'react';
-import promo1 from '../../assets/images/promo01.jpg';
-import promo2 from '../../assets/images/promo02.jpg';
-import promo3 from '../../assets/images/promo03.jpg';
-import promo4 from '../../assets/images/promo04.png';
-import promo5 from '../../assets/images/promo05.jpg';
-import promo6 from '../../assets/images/promo06.jpg';
+import promo1 from '../../assets/images/tourism2.jpg';
+import promo2 from '../../assets/images/agribusiness.jpg';
+import promo3 from '../../assets/images/mining.png';
+import promo4 from '../../assets/images/light-industry.jpg';
+import promo5 from '../../assets/images/ict.jpg';
+import promo6 from '../../assets/images/infrastructure.png';
 
 const Investment = () => {
   return (

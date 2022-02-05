@@ -1,5 +1,5 @@
 import React from 'react';
-import formImage from '../../assets/images/communication.jpg';
+import formImage from '../../assets/images/communication2.jpg';
 import logoOphir from '../../assets/images/logo-PNG.png';
 
 const Contact = () => {

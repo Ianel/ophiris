@@ -1,5 +1,5 @@
 import React from 'react';
-import importImage from '../../assets/images/bgimport.jpg';
+import importImage from '../../assets/images/import2.jpg';
 
 const Import = () => {
   return (
