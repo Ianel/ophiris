@@ -1,6 +1,5 @@
 import React from 'react';
 import export1 from '../../assets/images/coffee.jpg';
-import export2 from '../../assets/images/chocolate.png';
 
 const Export = () => {
   return (
