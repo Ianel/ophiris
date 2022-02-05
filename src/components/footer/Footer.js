@@ -20,7 +20,7 @@ const Footer = () => {
                 <nav className='flex leading-7 flex-col justify-evenly items-start'>
                   <div className='flex gap-3'>
                     <FontAwesomeIcon icon={faChevronRight} />
-                    <a className=' hover:text-secondary' href="#nav">Home</a>
+                    <a className=' hover:text-secondary' href="#hero">Home</a>
                   </div>
                   <div className='flex gap-3'>
                     <FontAwesomeIcon icon={faChevronRight} />

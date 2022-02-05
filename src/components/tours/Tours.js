@@ -42,7 +42,7 @@ const Tours = () => {
 
   return (
         <div className='lg:mx-10 mb-24' id="tours">
-            <h2 className='lg:text-3xl text-center lg:mt-24 lg:mb-8 mt-20 mb-4 font-bold text-2xl'>Our tours packages</h2>
+            <h2 className='lg:text-3xl text-center lg:mt-24 lg:mb-8 mt-20 mb-4 font-bold text-2xl'>Our tour packages</h2>
             <div className='flex lg:flex-row flex-col gap-3 justify-center items-center lg:gap-8'>
                 <button onClick={() => {
                     setIsBaobab(true); setIsIndri(false); setIsPearl(false); setIsWonder(false);
