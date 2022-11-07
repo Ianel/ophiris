@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## What does this website consists of ?
+It is the landing page of a travel agency named Ophir International Services. It allows user to see the tours and the main activities of the company.
+
 ## Available Scripts
 
 In the project directory, you can run:
