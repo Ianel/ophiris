@@ -39,7 +39,7 @@ Simply open `index.html` in your browser. The site uses Tailwind CSS via CDN for
    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
    <!-- Add this line: -->
-   <link href="/css/tailwind.css" rel="stylesheet">
+   <link href="./css/tailwind.css" rel="stylesheet">
    ```
 
 ### Option 2: Use Tailwind CDN (Not recommended for production)
