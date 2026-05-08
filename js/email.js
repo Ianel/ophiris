@@ -18,7 +18,7 @@ window.onload = function() {
         submitBtn.innerHTML = '<div class="loader" style="border-color: rgba(0, 0, 0, 0.2); border-top-color: #000;"></div>';
         
         // Send form
-        emailjs.sendForm('service_gnvzu3j', 'template_9upchqp', this)
+        emailjs.sendForm('service_4cmsvu4', 'template_9upchqp', this)
             .then(() => {
                 console.log('SUCCESS!');
                 // Show confirmation modal
