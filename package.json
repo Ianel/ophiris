@@ -1,24 +1,28 @@
 {
-  "name": "ophiris-website",
-  "version": "1.0.0",
-  "description": "Ophiris Madagascar - Premium Travel Agency & Investment Website",
-  "main": "index.html",
+  "name": "nextophiris",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "build-css": "tailwindcss -i ./src/input.css -o ./css/tailwind.css --watch",
-    "build-css-prod": "tailwindcss -i ./src/input.css -o ./css/tailwind.css --minify"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zustand": "^5.0.13"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.0",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32"
-  },
-  "keywords": [
-    "madagascar",
-    "travel",
-    "tourism",
-    "investment",
-    "ophiris"
-  ],
-  "author": "Ophir International Services",
-  "license": "MIT"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
 }
