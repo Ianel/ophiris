@@ -53,59 +53,70 @@ const tourData = {
     baobab: {
         title: "Baobab Tour",
         subtitle: "The Mystic West & The Giants",
-        img: "./assets/images/baobab-tour.jpg",
-        price: "From $950 / pers.",
-        desc: "An expedition to Madagascar's most spectacular lands. Sail down the Tsiribihina River aboard a private barge before reaching the Tsingy de Bemaraha, a unique limestone cathedral in the world.",
+        img: "./assets/images/Baobab 3.jpg",
+        price: "From $1575 / pers.",
+      //  desc: "An expedition to Madagascar's most spectacular lands. Sail down the Tsiribihina River aboard a private barge before reaching the Tsingy de Bemaraha, a unique limestone cathedral in the world.",
         itinerary: [
-            "Day 1 – Arrival in Antananarivo",
+            "Day 1 - Arrival in Antananarivo",
             "Day 2 - Antananarivo / Antsirabe & City Tour",
             "Day 3 - Antsirabe/ Tritriva Lake / Miandrivazo ",
             "Day 4 - Miandrivazo / Zazamalala Park / Morondava",
             "Day 5 - Baobab Avenue / Kirindy Forest Park ",
-            "Day 6 – Flight from Morondava to Antananarivo",
-            "Day 7 – Check-out and Departure"
+            "Day 6 - Flight from Morondava to Antananarivo",
+            "Day 7 - Check-out and Departure"
         ]
     },
     indri: {
-        title: "Indri Tour",
+        title: "A Glimpse of Madagascar",
         subtitle: "The Emerald East & The Primary Forest",
-        img: "./assets/images/indri-tour.jpg",
-        price: "From $1075 / pers.",
-        desc: "Dive into the enchanting humidity of the East. Listen to the deafening cry of the Indri lemur before letting yourself glide on the calm waters of the Pangalanes, lined with authentic fishing villages.",
+        img: "./assets/images/CHAMELEON.jpg",
+        price: "From $1350 / pers.",
+       // desc: "Dive into the enchanting humidity of the East. Listen to the deafening cry of the Indri lemur before letting yourself glide on the calm waters of the Pangalanes, lined with authentic fishing villages.",
         itinerary: [
-            "Special Reserve of Analamazaotra",
-            "Andasibe-Mantadia National Park",
-            "Navigation on the Pangalanes Canal",
-            "Visit to Akanin'ny Nofy fishing village",
-            "Return transfer to the capital"
+            "Day 1 - Arrival in Antananarivo",
+            "Day 2 - Antananarivo / Peyrieras Reptile Park / Andasibe",
+            "Day 3 - Andasibe National Park (Analamazaotra)",
+            "Day 4 - Andasibe / Queen's Palace Antananarivo",
+            "Day 5 - Ambohimanga King's Palace",
+            "Day 6 - Departure"
         ]
     },
     sakalava: {
-        title: "Sakalava Tour",
+        title: "Wonders of Madagascar",
         subtitle: "The Royal North & The Archipelagos",
-        img: "./assets/images/sakalava-tour.jpg",
-        price: "From $1750 / pers.",
-        desc: "A high-end circuit combining fantastic geology and crystal-clear lagoons. From the Red Tsingy of Irodo to the white sand beaches of Nosy Be, it's an ode to Madagascar's wild beauty in the North.",
+        img: "./assets/images/lemurien-de-face.jpg",
+        price: "From $1825 / pers.",
+      //  desc: "A high-end circuit combining fantastic geology and crystal-clear lagoons. From the Red Tsingy of Irodo to the white sand beaches of Nosy Be, it's an ode to Madagascar's wild beauty in the North.",
         itinerary: [
-            "Discovery of Diego-Suarez and its three bays",
-            "Excursion to the Emerald Sea",
-            "Exploration of the Ankarana massif",
-            "Crossing to the Nosy Be archipelago",
-            "Private cruise between sacred islands"
+            "Day 1 - Arrival in Antananarivo",
+            "Day 2 - Antananarivo / Peyrieras reptile park / Andasibe",
+            "Day 3 - Andasibe National Park & Vakona Private Park",
+            "Day 4 - Andasibe / Queen's Palace",
+            "Day 5 - Ambohimanga Kings Palace & Lisy Art Gallery",
+            "Day 6 - Antananarivo / Nosy Be (Domestic flight)",
+            "Day 7 - Nosy Komba & Tanihely",
+            "Day 8 - Nosy Iranja",
+            "Day 9 - Nosy Be Island Tour",
+            "Day 10 - Departure"
         ]
     },
     vezo: {
         title: "Vezo Tour",
         subtitle: "The Nomadic South & The Soul of the Sea",
-        img: "./assets/images/vezo-tour.jpg",
-        price: "From $1320 / pers.",
-        desc: "Travel across the mythical RN7 through the highlands before reaching the Southern desert. Experience Vezo authenticity in Anakao, where time stops to the rhythm of square-sail pirogues.",
+        img: "./assets/images/MADAGASCAR TREASURE ISLAND-LEMUR CATTA - 2.jpg",
+        price: "From $1925 / pers.",
+      //  desc: "Travel across the mythical RN7 through the highlands before reaching the Southern desert. Experience Vezo authenticity in Anakao, where time stops to the rhythm of square-sail pirogues.",
         itinerary: [
-            "Hiking in Isalo National Park",
-            "Tuléar, the radiant city of the South",
-            "Fast boat transfer to Anakao",
-            "Pirogue outing with Vezo nomads",
-            "Extension to Ifaty or domestic flight return"
+            "Day 1 - Arrival in Antananarivo",
+            "Day 2 - Antananarivo / Antsirabe",
+            "Day 3 - Antsirabe / Ambositra / Ranomafana National Park ",
+            "Day 4 - Ranomafana National Park / Fianarantsoa",
+            "Day 5 - Fianarantsoa / Ambalavao / Ranohira ",
+            "Day 6 - Ranohira (Isalo National Park)",
+            "Day 7 - Ranohira / Tulear / Ifaty",
+            "Day 8 & Day 9 - Ifaty",
+            "Day 10 - Ifaty / Tulear / Antananarivo",
+            "Day 11 - Departure"
         ]
     }
 };
