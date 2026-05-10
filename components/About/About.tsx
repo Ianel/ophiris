@@ -12,6 +12,7 @@ export default function About() {
                 src="/assets/images/exploration-baobab.png"
                 alt="Baobab"
                 className="object-cover"
+                loading="lazy"
               />
             </div>
           </div>
