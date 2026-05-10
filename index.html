@@ -243,7 +243,7 @@
     <nav class="fixed top-0 w-full z-50 px-6 py-4 transition-all duration-300 glass" id="navbar">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <div class="flex items-center space-x-2">
-                <img src="./assets/images/logo.png" alt="Ophiris Logo" class="w-24 h-12 md:w-40 md:h-[4.5rem]  object-contain">
+                <img src="/assets/images/logo.png" alt="Ophiris Logo" class="w-24 h-12 md:w-40 md:h-[4.5rem]  object-contain">
                 <!-- <span class="text-xl font-serif tracking-widest uppercase">Ophiris</span> -->
             </div>
             
@@ -260,7 +260,7 @@
             <button id="closeMobileMenuBtn" onclick="hideMobileMenu()" class="md:hidden text-2xl">✕</button>
         </div>
 
-        <div id="mobileMenu" class="transition-all duration-300 gap-y-4 md:hidden flex flex-col justify-center items-center">     
+        <div id="mobileMenu" class="transition-all duration-300 gap-y-4 md:hidden flex flex-col justify-center items-center hidden">     
             <a href="#home" class="mt-2 hover:text-[#C5A059] transition-colors" title="Go to homepage">Home</a>
             <a href="#tours" class="hover:text-[#C5A059] transition-colors" title="Explore our exclusive Madagascar tours">Tours & Travel</a>
             <a href="#invest" class="hover:text-[#C5A059] transition-colors" title="Discover investment opportunities in Madagascar">Investment</a>
@@ -274,7 +274,7 @@
         <div class="absolute inset-0 z-0">
             <div class="absolute inset-0 bg-black/60 z-10"></div>
             <!-- Background Image Fallback (since we can't load real video/complex assets reliably, we use a beautiful colored gradient + placeholder) -->
-            <img src="./assets/images/hero.avif" 
+            <img src="/assets/images/hero.avif" 
                 class="w-full h-full object-cover" 
                 alt="Stunning Madagascar landscape showcasing the natural beauty and biodiversity of the island - Ophiris Travel Agency"
                 onerror="this.src='https://placehold.co/1920x1080/062C23/FFFFFF?text=Madagascar+Elegance'">
@@ -302,7 +302,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                 <div class="relative">
                     <div class="absolute -top-10 -left-10 w-40 h-40 bg-[#C5A059]/10 rounded-full blur-3xl"></div>
-                    <img src="./assets/images/exploration-baobab.avif" 
+                    <img src="/assets/images/exploration-baobab.avif" 
                         class="rounded-2xl shadow-2xl relative z-10 border border-white/10" alt="Baobab">
                 </div>
                 <div>
@@ -337,7 +337,7 @@
                 <!-- Baobab -->
                 <div class="glass p-6 rounded-3xl card-hover flex flex-col h-full">
                     <div class="h-48 mb-6 overflow-hidden rounded-xl">
-                        <img src="./assets/images/baobab-tour.avif" class="w-full h-full object-cover" alt="Baobab Tour">
+                        <img src="/assets/images/baobab-tour.avif" class="w-full h-full object-cover" alt="Baobab Tour">
                     </div>
                     <h4 class="text-xl font-serif mb-1">Baobab Tour</h4>
                     <div class="mb-4 flex flex-row justify-between items-center mt-2">
@@ -356,7 +356,7 @@
                 <!-- Indri -->
                 <div class="glass p-6 rounded-3xl card-hover flex flex-col h-full border-[#C5A059]/30">
                     <div class="h-48 mb-6 overflow-hidden rounded-xl">
-                        <img src="./assets/images/indri-tour.avif" class="w-full h-full object-cover" alt="A Glimpse of Madagascar">
+                        <img src="/assets/images/indri-tour.avif" class="w-full h-full object-cover" alt="A Glimpse of Madagascar">
                     </div>
                     <h4 class="text-xl font-serif mb-1">A Glimpse of Madagascar</h4>
                      <div class="mb-4 flex flex-row justify-between items-center mt-2">
@@ -373,7 +373,7 @@
                 <!-- Sakalava -->
                 <div class="glass p-6 rounded-3xl card-hover flex flex-col h-full">
                     <div class="h-48 mb-6 overflow-hidden rounded-xl">
-                        <img src="./assets/images/IRANJA.avif" class="w-full h-full object-cover" alt="Wonders of Madagascar">
+                        <img src="/assets/images/IRANJA.avif" class="w-full h-full object-cover" alt="Wonders of Madagascar">
                     </div>
                     <h4 class="text-xl font-serif mb-1">Wonders of Madagascar</h4>
                     <div class="mb-4 flex flex-row justify-between items-center mt-2">
@@ -390,7 +390,7 @@
                 <!-- Vezo -->
                 <div class="glass p-6 rounded-3xl card-hover flex flex-col h-full">
                     <div class="h-48 mb-6 overflow-hidden rounded-xl">
-                        <img src="./assets/images/ISALO - FENETRE DE L'ISALO.avif" class="w-full h-full object-cover" alt="Vezo Tour">
+                        <img src="/assets/images/isalo-fenetre.avif" class="w-full h-full object-cover" alt="Vezo Tour">
                     </div>
                     <h4 class="text-xl font-serif mb-1">Vezo Tour</h4>
                     <div class="mb-4 flex flex-row justify-between items-center mt-2">
@@ -537,7 +537,7 @@
                     </div>
                 </div>
                 <div class="order-1 lg:order-2 relative">
-                    <img src="./assets/images/trade.avif" 
+                    <img src="/assets/images/trade.avif" 
                          class="rounded-3xl shadow-2xl transition-all duration-700 h-[500px] w-full object-cover" alt="Logistics">
                     <div class="absolute -bottom-6 -left-6 bg-[#C5A059] p-6 rounded-2xl text-black">
                         <p class="text-3xl font-serif font-bold">15+</p>
@@ -611,7 +611,7 @@
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
             <div>
                 <h2 class="text-[#C5A059] uppercase tracking-widest mb-4">Let's Talk Future</h2>
-                <h3 class="text-5xl font-serif mb-8 leading-normal">Feel free <span class="italic">to reach out</span>.</h3>
+                <h3 class="text-5xl font-serif mb-8">Feel free <span class="italic">to reach out</span>.</h3>
                 <div class="space-y-6">
                     <div class="flex items-center space-x-4">
                         <div class="text-[#C5A059]">

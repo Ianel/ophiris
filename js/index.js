@@ -54,7 +54,7 @@ const tourData = {
     baobab: {
         title: "Baobab Tour",
         subtitle: "The Mystic West & The Giants",
-        img: "./assets/images/Baobab 3.avif",
+        img: "/assets/images/baobab-3.avif",
         price: "From $1575 / pers.",
       //  desc: "An expedition to Madagascar's most spectacular lands. Sail down the Tsiribihina River aboard a private barge before reaching the Tsingy de Bemaraha, a unique limestone cathedral in the world.",
         itinerary: [
@@ -70,7 +70,7 @@ const tourData = {
     indri: {
         title: "A Glimpse of Madagascar",
         subtitle: "The Emerald East & The Primary Forest",
-        img: "./assets/images/CHAMELEON.avif",
+        img: "/assets/images/CHAMELEON.avif",
         price: "From $1350 / pers.",
        // desc: "Dive into the enchanting humidity of the East. Listen to the deafening cry of the Indri lemur before letting yourself glide on the calm waters of the Pangalanes, lined with authentic fishing villages.",
         itinerary: [
@@ -85,7 +85,7 @@ const tourData = {
     sakalava: {
         title: "Wonders of Madagascar",
         subtitle: "The Royal North & The Archipelagos",
-        img: "./assets/images/lemurien-de-face.avif",
+        img: "/assets/images/lemurien-de-face.avif",
         price: "From $1825 / pers.",
       //  desc: "A high-end circuit combining fantastic geology and crystal-clear lagoons. From the Red Tsingy of Irodo to the white sand beaches of Nosy Be, it's an ode to Madagascar's wild beauty in the North.",
         itinerary: [
@@ -104,7 +104,7 @@ const tourData = {
     vezo: {
         title: "Vezo Tour",
         subtitle: "The Nomadic South & The Soul of the Sea",
-        img: "./assets/images/MADAGASCAR TREASURE ISLAND-LEMUR CATTA - 2.avif",
+        img: "/assets/images/madagascar-lemur-catta.avif",
         price: "From $1925 / pers.",
       //  desc: "Travel across the mythical RN7 through the highlands before reaching the Southern desert. Experience Vezo authenticity in Anakao, where time stops to the rhythm of square-sail pirogues.",
         itinerary: [
