@@ -79,11 +79,10 @@ export default function Trade() {
           </div>
           <div className="order-1 lg:order-2 relative">
             <div className="relative rounded-3xl shadow-2xl overflow-hidden h-125 w-full">
-              <Image
+              <img
                 src="/assets/images/trade.png"
                 alt="Logistics"
-                fill
-                className="object-cover transition-all duration-700"
+                className="object-cover transition-all duration-700 w-full h-full md:h-125 hover:scale-105"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-[#C5A059] p-6 rounded-2xl text-black">

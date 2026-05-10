@@ -8,10 +8,9 @@ export default function About() {
           <div className="relative">
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-[#C5A059]/10 rounded-full blur-3xl"></div>
             <div className="relative z-10 rounded-2xl shadow-2xl overflow-hidden border border-white/10 aspect-[4/3]">
-              <Image
+              <img
                 src="/assets/images/exploration-baobab.png"
                 alt="Baobab"
-                fill
                 className="object-cover"
               />
             </div>

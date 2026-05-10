@@ -120,11 +120,11 @@ export default function Tours() {
               className="glass p-6 rounded-3xl card-hover flex flex-col h-full"
             >
               <div className="h-48 mb-6 overflow-hidden rounded-xl relative">
-                <Image
+                <img
                   src={tour.thumbImg}
                   alt={tour.title}
-                  fill
-                  className="object-cover"
+                 
+                  className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
                 />
               </div>
               <h4 className="text-xl font-serif mb-1">{tour.title}</h4>
@@ -174,11 +174,10 @@ export default function Tours() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 overflow-hidden">
               <div className="h-64 md:h-auto relative">
-                <Image
+                <img
                   src={selectedTour.img}
                   alt={selectedTour.title}
-                  fill
-                  className="object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
               <div className="p-8 md:p-12">

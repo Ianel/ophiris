@@ -26,7 +26,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <Image
+          <img
             src="/assets/images/logo.png"
             alt="Ophiris Logo"
             width={160}

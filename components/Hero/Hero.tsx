@@ -8,12 +8,10 @@ export default function Hero() {
     >
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
-        <Image
+        <img
           src="/assets/images/hero.png"
           alt="Stunning Madagascar landscape showcasing the natural beauty and biodiversity of the island - Ophiris Travel Agency"
-          fill
-          className="object-cover"
-          priority
+          className="object-cover object-center w-full h-full"
         />
       </div>
 
