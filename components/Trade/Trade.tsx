@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 export default function Trade() {
   return (
@@ -79,7 +79,7 @@ export default function Trade() {
           </div>
           <div className="order-1 lg:order-2 relative">
             <div className="relative rounded-3xl shadow-2xl overflow-hidden h-125 w-full">
-              <img
+              <ExportedImage
                 src="/assets/images/trade.png"
                 alt="Logistics"
                 className="object-cover transition-all duration-700 w-full h-full md:h-125 hover:scale-105"

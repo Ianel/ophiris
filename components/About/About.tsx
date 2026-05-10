@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 export default function About() {
   return (
@@ -8,11 +8,10 @@ export default function About() {
           <div className="relative">
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-[#C5A059]/10 rounded-full blur-3xl"></div>
             <div className="relative z-10 rounded-2xl shadow-2xl overflow-hidden border border-white/10 aspect-[4/3]">
-              <img
+              <ExportedImage
                 src="/assets/images/exploration-baobab.png"
                 alt="Baobab"
-                className="object-cover"
-                loading="lazy"
+                className="object-cover w-full h-full"
               />
             </div>
           </div>

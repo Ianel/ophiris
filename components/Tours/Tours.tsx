@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Modal from "@/components/Common/Modal";
 
 interface Tour {
@@ -120,10 +120,11 @@ export default function Tours() {
               className="glass p-6 rounded-3xl card-hover flex flex-col h-full"
             >
               <div className="h-48 mb-6 overflow-hidden rounded-xl relative">
-                <img
+                <ExportedImage
                   src={tour.thumbImg}
                   alt={tour.title}
-                 
+                  width={400}
+                  height={300}
                   className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
                 />
               </div>
@@ -174,9 +175,11 @@ export default function Tours() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 overflow-hidden">
               <div className="h-64 md:h-auto relative">
-                <img
+                <ExportedImage
                   src={selectedTour.img}
                   alt={selectedTour.title}
+                  width={400}
+                  height={300}
                   className="object-cover w-full h-full"
                 />
               </div>
