@@ -57,11 +57,13 @@ const tourData = {
         price: "From $950 / pers.",
         desc: "An expedition to Madagascar's most spectacular lands. Sail down the Tsiribihina River aboard a private barge before reaching the Tsingy de Bemaraha, a unique limestone cathedral in the world.",
         itinerary: [
-            "Transfer to Miandrivazo",
-            "3 days descent of the river (luxury bivouac)",
-            "Exploration of the Tsingy de Bemaraha",
-            "Sunset at the Avenue of Baobabs",
-            "Return to Antananarivo via Morondava"
+            "Day 1 – Arrival in Antananarivo",
+            "Day 2 - Antananarivo / Antsirabe & City Tour",
+            "Day 3 - Antsirabe/ Tritriva Lake / Miandrivazo ",
+            "Day 4 - Miandrivazo / Zazamalala Park / Morondava",
+            "Day 5 - Baobab Avenue / Kirindy Forest Park ",
+            "Day 6 – Flight from Morondava to Antananarivo",
+            "Day 7 – Check-out and Departure"
         ]
     },
     indri: {
@@ -117,7 +119,7 @@ function openTourModal(tourId) {
     document.getElementById('modalImg').src = tour.img;
     document.getElementById('modalTitle').innerText = tour.title;
     document.getElementById('modalSubtitle').innerText = tour.subtitle;
-    document.getElementById('modalDesc').innerText = tour.desc;
+  //  document.getElementById('modalDesc').innerText = tour.desc;
     document.getElementById('modalPrice').innerText = tour.price;
     
     // Populate itinerary
