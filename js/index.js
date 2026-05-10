@@ -1,4 +1,5 @@
 
+document.getElementById('mobileMenu').classList.add('hidden');
 document.getElementById('closeMobileMenuBtn').classList.add('hidden');
 document.querySelectorAll('#mobileMenu a').forEach(link => {
     link.addEventListener('click', hideMobileMenu);
