@@ -35,7 +35,7 @@ export default function Navbar() {
           />
         </div>
 
-        <div className="hidden md:flex md:items-center space-x-3 lg:space-x-6 text-sm uppercase tracking-widest">
+        <div className="hidden lg:flex md:items-center space-x-3 lg:space-x-6 text-sm uppercase tracking-widest">
           <a href="#home" className="hover:text-[#C5A059] transition-colors">
             Home
           </a>
@@ -59,13 +59,13 @@ export default function Navbar() {
           </a>
         </div>
 
-        <button onClick={toggleMobileMenu} className="md:hidden text-2xl">
+        <button onClick={toggleMobileMenu} className="lg:hidden text-2xl">
           {isMobileMenuOpen ? "✕" : "☰"}
         </button>
       </div>
 
       <div
-        className={`transition-all duration-300 gap-y-4 md:hidden flex flex-col justify-center items-center ${
+        className={`transition-all duration-300 gap-y-4 lg:hidden flex flex-col justify-center items-center ${
           isMobileMenuOpen ? "flex mt-4" : "hidden"
         }`}
       >
