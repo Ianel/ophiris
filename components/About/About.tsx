@@ -12,6 +12,8 @@ export default function About() {
                 src="/assets/images/exploration-baobab.png"
                 alt="Baobab"
                 className="object-cover w-full h-full"
+                width={800}
+                height={600}
               />
             </div>
           </div>

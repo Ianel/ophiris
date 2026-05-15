@@ -12,6 +12,8 @@ export default function Hero() {
           src="/assets/images/hero.png"
           alt="Stunning Madagascar landscape showcasing the natural beauty and biodiversity of the island - Ophiris Travel Agency"
           className="object-cover object-center w-full h-full"
+          width={1920}
+          height={1080}
         />
       </div>
 

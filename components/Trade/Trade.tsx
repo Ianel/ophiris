@@ -83,6 +83,8 @@ export default function Trade() {
                 src="/assets/images/trade.png"
                 alt="Logistics"
                 className="object-cover transition-all duration-700 w-full h-full md:h-125 hover:scale-105"
+                width={800}
+                height={600}
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-[#C5A059] p-6 rounded-2xl text-black">
